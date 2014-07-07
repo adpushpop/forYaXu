@@ -1,0 +1,20 @@
+mmadb shell am start -n com.qihoo360.wallpaper/.android.Wallpaper360Activity
+mmadb shell am start -n com.duomi.androidjf/.DMMainActivity
+mmadb shell am start -n cn.htjyb.reader/.ActivityMain
+mmadb shell am start -n com.noodies.gdfc/com.noodies.gdfc.SplashActivity
+mmadb shell am start -n com.kenny.flashlight/com.devuni.flashlight.MainActivity
+mmadb shell am start -n com.homexw.android.app/com.homexw.android.app.LoadRealestate
+mmadb shell am start -n com.aspire.newspaper/com.aspire.newspaper.SlashActivity
+mmadb shell am start -n com.kugou.android.ringtone/com.kugou.android.ringtone.activity.WecomeActivity
+mmadb shell am start -n com.miui.home/com.miui.home.main.LockScreenMainActivity
+mmadb shell am start -n andke.net.rebooter/.Rebooter
+mmadb uninstall com.qihoo360.wallpaper
+mmadb uninstall com.duomi.androidjf
+mmadb uninstall cn.htjyb.reader
+mmadb uninstall com.noodies.gdfc
+mmadb uninstall com.kenny.flashlight
+mmadb uninstall com.homexw.android.app
+mmadb uninstall com.aspire.newspaper
+mmadb uninstall com.kugou.android.ringtone
+mmadb uninstall com.miui.home
+mmadb uninstall andke.net.rebooter
