@@ -8,6 +8,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.URL;
 import java.util.Properties;
 
 import org.slf4j.Logger;
@@ -21,7 +22,8 @@ import org.slf4j.LoggerFactory;
 public class PropertyHelp {
 	private final static Logger logger = LoggerFactory.getLogger(PropertyHelp.class);
     //属性文件的路径
-    private static String profilepath = System.getProperty("user.dir")+File.separatorChar+"config.properties";
+	private static URL classPath = ClassLoader.getSystemResource("/");
+    private static String profilepath = classPath.getPath()+File.separatorChar+"config.properties";
     private static Properties props = new Properties();
     
     static {
